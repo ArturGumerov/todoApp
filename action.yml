@@ -1,0 +1,8 @@
+name: "todoApp"
+description: "todoApp"
+
+runs:
+  using: composite
+  steps:
+  -run: go run cmd/main.go
+  shell: bash
